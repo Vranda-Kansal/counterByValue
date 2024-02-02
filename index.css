@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#heading {
+  margin: 2px;
+  padding: 2px;
+}
+
+#value {
+  font-size: 40px;
+}
+
+#changing-value {
+  width: 40px;
+  padding: 5px;
+}
+.value-input {
+  margin: 2px;
+  padding: 2px;
+}
+.button-list {
+  margin: 2px;
+  padding: 2px;
+}
+#increment {
+  margin: 4px;
+  padding: 4px;
+  width: 40px;
+  border-radius: 2px;
+  background-color: green;
+  font-size: large;
+}
+#decrement {
+  margin: 4px;
+  padding: 4px;
+  width: 40px;
+  border-radius: 4px;
+  background-color: red;
+  font-size: large;
+}
+#reset {
+  margin: 4px;
+  padding: 4px;
+  width: fit-content;
+  border-radius: 4px;
+  background-color: yellow;
+  font-size: large;
+}
